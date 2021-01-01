@@ -1,4 +1,12 @@
 PythonTab = "(//*[@id='link']//li)[2]"
+PythonNotesJavaTPoint = "(//*[@id='city']//p)[5]"
 Code1 = "(//*[@class='dp-j'])[5]"
 Code2 = "(//*[@class='dp-j'])[6]"
 Code3 = "(//*[@class='dp-j'])[11]"
+PythonNotesTutorialsPoint_1 = "(//*[@class='list'])[2]"
+tp_operators = "(//*[@class='toc chapters']//li)[8]"
+Code1_tp = "//*[@class='prettyprint notranslate prettyprinted']"
+tp_functions = "(//*[@class='toc chapters']//li)[16]"
+Code2_tp = "(//*[@class='prettyprint notranslate prettyprinted'])[2]"
+Code3_tp = "(//*[@class='prettyprint notranslate prettyprinted'])[3]"
+

@@ -18,8 +18,8 @@ driver.find_element_by_xpath(Xpaths.PythonTab).click()
 # Wait for page to load
 time.sleep(Constants.TwoSeconds)
 
-# Going Tab To Tab and creating notes
-python_Notes = driver.find_element_by_xpath("(//*[@id='city']//p)[5]").text
+# Going Tab To Tab and extracting notes
+python_Notes = driver.find_element_by_xpath(Xpaths.PythonNotesJavaTPoint).text
 
 # Updating notes in File
 fileNotes = open('../pythonProject1/FilesCollected/JavaTPointNotes/Python.txt', 'w')
