@@ -5,9 +5,9 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building..'
-                python JavaTPointProgram1.py
-                python JavaTPointProgram2.py
-                python JavaTPointProgram3.py
+                sh 'python extractedProgram/TutorialPoint/TutorialsPointProgram1.py'
+                sh 'python extractedProgram/TutorialPoint/TutorialsPointProgram1.py'
+                sh 'python extractedProgram/TutorialPoint/TutorialsPointProgram1.py'
             }
         }
         stage('Test') {
