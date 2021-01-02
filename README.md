@@ -16,3 +16,7 @@ Note :-  Need to setup the path according to your path of webdriver
 4. Needs to setup Jenkins with default plugings installed
 5. Add Pipeline through jenkins by giving the master link of this github and file name as jenkinsfile.
 
+# Sample Output
+Please refer to the below link for the sample output :-
+https://drive.google.com/file/d/1-vyJsq-_LMU9wjPEWe3FlABdcEnz5EWf/view?usp=drivesdk
+
