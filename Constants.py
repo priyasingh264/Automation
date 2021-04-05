@@ -4,4 +4,4 @@ FourSeconds = 4
 TenSeconds = 10
 Teradata = "Teradata"
 SampleMailId = "Priyasinghjee0033@gmail.com"
-SamplePassword = "***********"
+SamplePassword = "Priya123@"

@@ -7,7 +7,7 @@ import Urls
 from selenium.webdriver.common.keys import Keys
 
 driver = webdriver.Opera(
-    executable_path='C:\\Users\\aj250065\\Downloads\\operadriver_win64\\operadriver_win64\\operadriver.exe')
+    executable_path='C:\\Users\\Administrator\\Downloads\\operadriver_win64\\operadriver_win64\\operadriver.exe')
 
 # Opening GeeksForGeeks Url
 time.sleep(Constants.TwoSeconds)
@@ -33,7 +33,7 @@ driver.find_element_by_xpath(Xpaths.SignInButton).click()
 time.sleep(Constants.FourSeconds)
 
 # Updating notes in File
-file = open('../pythonProject1/FilesCollected/GeeksForGeeks/AutomationResult.txt', 'w')
+file = open('../Automation/FilesCollected/GeeksForGeeks/AutomationResult.txt', 'w')
 file.write("Extracting Results \n")
 file.write("Site Name :- \n")
 file.write("Site URL :- \n")
