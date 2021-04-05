@@ -23,6 +23,8 @@ https://drive.google.com/file/d/1-vyJsq-_LMU9wjPEWe3FlABdcEnz5EWf/view?usp=drive
 
 # Command to generate allure report
 python -m pytest Analysis.py --alluredir ./result
+
+
 allure serve ./result/
 
 
