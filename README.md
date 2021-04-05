@@ -21,3 +21,8 @@ Note :-  Need to setup the path according to your path of webdriver
 Please refer to the below link for the sample output :-
 https://drive.google.com/file/d/1-vyJsq-_LMU9wjPEWe3FlABdcEnz5EWf/view?usp=drivesdk
 
+# Command to generate allure report
+python -m pytest Analysis.py --alluredir ./result
+allure serve ./result/
+
+
