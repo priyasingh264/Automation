@@ -13,7 +13,7 @@ Jenkins also keep record of this GitHub and of the CD/CI (Continuous Delivery an
 Note :-  Need to setup the path according to your path of webdriver
 2. Python 3 or above version
 3. PyCharm or any Development enviroment for executing python codes
-5. Add pip (It comes by-default with python version > 3) and includ pip install --selenium
+5. Add pip (It comes by-default with python version > 3) and include pip install selenium, pip install pytest, pip install allure-pytest
 4. Needs to setup Jenkins with default plugings installed
 5. Add Pipeline through jenkins by giving the master link of this github and file name as jenkinsfile.
 
