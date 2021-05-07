@@ -13,7 +13,6 @@ Note :-  Need to setup the path according to your path of webdriver
 2. Python 3 or above version
 3. PyCharm or any Development enviroment for executing python codes
 5. Add pip (It comes by-default with python version > 3) and include pip install selenium, pip install pytest, pip install allure-pytest
-4. Needs to setup Jenkins with default plugings installed
 
 # Sample Output
 Please refer to the below link for the sample output :-
